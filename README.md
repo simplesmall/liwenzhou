@@ -1,15 +1,15 @@
-###Summary:
+### Summary:
 This project is Go learn record toturial according to liwenzhou's blog.
 
-###Structure
-#####Basic: 
+### Structure
+##### Basic: 
 basic knowledge about Go including Data type,basic process control,simple Operator .
-#####Advanced:
+##### Advanced:
 advanced using and import knowledge about Go language.
-#####Master: 
+##### Master: 
 complex and flexible using and high level knowledge about Go language.
 
-###FileComposer
+### FileComposer
 main.go: compose all the using case
 Composer: each part's composer file to conclude all itself function.
 Common: Common using function,including tools and tips at present.
