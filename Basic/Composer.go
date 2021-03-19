@@ -2,6 +2,13 @@ package Basic
 
 import "liwenzhou/Common"
 
+// 数据类型集合器
+func DataTypeCompose()  {
+	Common.GroupTips("基本数据类型")
+	Common.TitleTips("数据类型")
+	DataType()
+}
+
 // 变量集合器
 func VariablesCompose()  {
 	Common.GroupTips("基础之变量和常量-变量")
@@ -21,15 +28,12 @@ func OperatorCompose()  {
 	Operator()
 }
 // 流程控制集合器
-// if-else 流程控制
 func ProcessControlCompose()  {
 	Common.GroupTips("流程控制")
-	Common.TitleTips("if-else")
-	IfElse()
+	ProcessControl()
 }
-
-// for循环流程控制
-func ForCompose()  {
-	Common.TitleTips("for循环")
-	ForLoop()
+// 数组集合器
+func ArrayCompose()  {
+	Common.GroupTips("数组")
+	Array()
 }
