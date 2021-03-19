@@ -21,7 +21,12 @@ func main() {
 	//// 基本流程控制
 	//Basic.ProcessControlCompose()
 	//Common.ManyLines(1)
-	// 数组
-	Basic.ArrayCompose()
+	//数组
+	//Basic.ArrayCompose()
+	//Common.ManyLines(1)
+	// fmt
+	//Basic.FmtCompose()
+	//Common.ManyLines(1)
+	Basic.ScanCompose()
 	Common.ManyLines(1)
 }

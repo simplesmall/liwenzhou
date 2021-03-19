@@ -37,3 +37,13 @@ func ArrayCompose()  {
 	Common.GroupTips("数组")
 	Array()
 }
+// Fmt集合器
+func FmtCompose()  {
+	Common.GroupTips("Fmt")
+	Fmt()
+}
+// Scan集合器
+func ScanCompose()  {
+	Common.GroupTips("Scan")
+	Scan()
+}
