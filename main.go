@@ -1,6 +1,7 @@
 package main
 
 import (
+	"liwenzhou/Advanced"
 	"liwenzhou/Basic"
 	"liwenzhou/Common"
 )
@@ -27,6 +28,12 @@ func main() {
 	// fmt
 	//Basic.FmtCompose()
 	//Common.ManyLines(1)
-	Basic.ScanCompose()
+	// scan
+	//Basic.ScanCompose()
+	//Common.ManyLines(1)
+	// slice
+	Basic.SliceCompose()
+	Common.ManyLines(1)
+	Advanced.LogCompose()
 	Common.ManyLines(1)
 }

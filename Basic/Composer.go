@@ -47,3 +47,9 @@ func ScanCompose()  {
 	Common.GroupTips("Scan")
 	Scan()
 }
+
+// 切片集合器
+func SliceCompose()  {
+	Common.GroupTips("Slice(切片)")
+	Slice()
+}
